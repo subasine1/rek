@@ -1,0 +1,24 @@
+# environnements — reconstructibles par `uv sync`
+.venv/
+
+# artefacts de compilation — dérivés du source
+__pycache__/
+*.py[cod]
+dist/
+build/
+*.egg-info/
+
+# caches d'outils
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# secrets — une clé poussée est une clé compromise
+.env
+.env.*
+*.pem
+*.key
+
+# données brutes — volumineuses, souvent personnelles
+data/raw/
+secret.env
