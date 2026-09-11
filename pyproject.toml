@@ -7,7 +7,10 @@ authors = [
     { name = "subasine1", email = "abadgaye@abadgaye.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "rich>=13",
+    "typer>=0.27.2",
+]
 
 [project.scripts]
 rek = "rek:main"
