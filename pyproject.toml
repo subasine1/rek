@@ -1,0 +1,17 @@
+[project]
+name = "rek"
+version = "0.1.0"
+description = "REK is a public version KER(Knowledge Engine for Risk) simplified"
+readme = "README.md"
+authors = [
+    { name = "subasine1", email = "abadgaye@abadgaye.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+rek = "rek:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
